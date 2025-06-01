@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36119.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTrack", "SmartTrack\SmartTrack.csproj", "{67FA79E1-8C7D-499E-B694-877618E0D661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67FA79E1-8C7D-499E-B694-877618E0D661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FA79E1-8C7D-499E-B694-877618E0D661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FA79E1-8C7D-499E-B694-877618E0D661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FA79E1-8C7D-499E-B694-877618E0D661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {249D71F3-3B90-4E9F-97DD-A347E685BB7F}
+	EndGlobalSection
+EndGlobal

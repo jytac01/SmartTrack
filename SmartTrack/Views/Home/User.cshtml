@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Attendance Record";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+@model List<SmartTrack.Models.Students>
+
+<div class="text-center">
+    <h1>Attendance Record</h1>
+
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>P/A</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var students in Model)
+            {
+                <tr>
+                    <td>@students.FirstName</td>
+                    <td>@students.MiddleName</td>
+                    <td>@students.LastName</td>
+                    <td>@students.Email</td>
+                    <td>
+                        <form method="post">
+                            <input type="radio" name="Attendance" value="Present" />
+                            <input type="radio" name="Attendance" value="Absent" />
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
