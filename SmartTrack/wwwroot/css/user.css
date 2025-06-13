@@ -1,6 +1,12 @@
 ﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.navbar {
+    background-color: #212435;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
 a.navbar-brand {
     white-space: normal;
     text-align: center;
@@ -41,6 +47,10 @@ button.accept-policy {
 }
 
 .footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #212435;
+    color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
